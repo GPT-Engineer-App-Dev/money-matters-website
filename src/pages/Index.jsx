@@ -2,7 +2,7 @@ import { Box, Container, Flex, Grid, GridItem, Heading, Text, VStack } from "@ch
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" py={4}>
+    <Container maxW="container.xl" py={4} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} gap={4}>
         <Box flex="3">
           <Box mb={4}>
